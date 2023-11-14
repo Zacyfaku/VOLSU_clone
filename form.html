@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Вариант 5</h2>
+        <form action="#" method="get" class="form">
+            <textarea placeholder="Введите Города" name="Города" id="textarea" cols="30" rows="10" class="form__textarea"></textarea>
+            <div style="margin-top: 10px; margin-bottom: 10px;">
+                <div>
+                    <input type="checkbox" name="omsk id="omsk">
+                    <label for="omsk">Омск</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="novosibirsk" id="novosibirsk">
+                    <label for="novosibirsk">Новосибирск</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="tomsk" id="tomsk">
+                    <label for="tomsk">Томск</label>
+                </div>
+            </div>
+            <input style="display: block; margin-bottom: 10px;" type="password" name="password" id="password">
+            <select name="City" id="City" style="display: block; margin-bottom: 10px;">
+                <option value="Омск">Омск</option>
+                <option value="Новосибирск">Новосибирск</option>
+                <option value="Томск">Томск</option>
+            </select>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+
+            <div class="paint">
+                <div class="square blue"></div>
+                <div class="bottom">
+                    <div class="square yelow"></div>
+                    <div class="square red"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

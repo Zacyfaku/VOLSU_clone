@@ -1,0 +1,28 @@
+.paint{
+    padding: 40px;
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    border: solid 2px;
+    border-radius: 17px;
+}
+.blue{
+    margin-left: 54px;
+    transform: rotate(45deg);
+    background-color: #B8CCE4;
+}
+.bottom{
+    display: flex;
+}
+.yelow{
+    transform: rotate(22.5deg);
+    margin-right: 10px;
+    background-color: #FFFF00;
+}
+.red{
+    transform: rotate(-22.5deg);
+    margin-left: 10px;
+    background-color: #CC0066;
+}
